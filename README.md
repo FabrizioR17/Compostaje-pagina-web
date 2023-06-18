@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## El reto
 
 Su desafío es crear esta página de destino y hacer que se parezca lo más posible al diseño.
@@ -41,3 +42,6 @@ No dude en utilizar cualquier flujo de trabajo con el que se sienta cómodo. A c
 ## Envío de su solución
 
 Envíe su solución en el google forms adjunto en PG, por favor adjuntar un archivo ZIP.
+=======
+# sport-page
+>>>>>>> c3b699ba870cba09a6d0a609190bb3b8848764ca
