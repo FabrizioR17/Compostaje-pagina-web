@@ -13,6 +13,8 @@
   --color-bg-footer: #1e1e26;
   --color-copyright: #8c8c94;
   --color-bg-responsive: #3cddf3;
+  --color-hover: rgba(36, 46, 82, 0.6);
+  --color-hover-bg: rgba(139, 72, 191, 0.7);
 }
 
 * {
@@ -48,9 +50,15 @@ header {
   text-decoration: none;
 }
 
+.navbar a:hover{
+    color: var(--color-hover);
+}
+
 .navbar > li {
   padding: 5px 15px;
 }
+
+
 .btn-contact {
   text-decoration: none;
   color: var(--color-contraste);
@@ -230,6 +238,10 @@ h1 {
 
 .btn-more {
   padding: 10px 35px;
+}
+
+.btn-more:hover{
+    background-color: var(--color-hover-bg);
 }
 /* TRAINNING end */
 
