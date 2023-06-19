@@ -50,14 +50,13 @@ header {
   text-decoration: none;
 }
 
-.navbar a:hover{
-    color: var(--color-hover);
+.navbar a:hover {
+  color: var(--color-hover);
 }
 
 .navbar > li {
   padding: 5px 15px;
 }
-
 
 .btn-contact {
   text-decoration: none;
@@ -240,8 +239,8 @@ h1 {
   padding: 10px 35px;
 }
 
-.btn-more:hover{
-    background-color: var(--color-hover-bg);
+.btn-more:hover {
+  background-color: var(--color-hover-bg);
 }
 /* TRAINNING end */
 
@@ -276,6 +275,11 @@ footer {
 
 footer li {
   list-style: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--color-contraste);
 }
 
 .footer-column {
@@ -325,13 +329,14 @@ footer li {
   color: var(--color-contraste);
 }
 
-.column-4 p, .copyright {
+.column-4 p,
+.copyright {
   font-size: 12.5px;
   color: var(--color-copyright);
 }
 
-.copyright{
-    display: none;
+.copyright {
+  display: none;
 }
 
 /* Media Query */
@@ -442,16 +447,17 @@ footer li {
     align-items: center;
   }
 
-  .redes-sociales{
+  .redes-sociales {
     display: flex;
     justify-content: space-between;
     width: 100%;
   }
 
-  .column-2, .column-3{
+  .column-2,
+  .column-3 {
     width: 40%;
     padding-left: 25px;
-  } 
+  }
 
   .column-4 > p {
     display: none;
