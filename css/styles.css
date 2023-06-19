@@ -139,7 +139,9 @@ h1 {
 .text-2 {
   display: none;
 }
+/* PRODUCTS end */
 
+/* ABOUT US start */
 .characteristics {
   background-color: var(--color-bg-section);
   padding: 30px;
@@ -173,7 +175,7 @@ h1 {
   margin: 10px 0 0 100px;
   color: var(--color-texto-1);
 }
-/* PRODUCTS end */
+/* ABOUT US end */
 
 /* TRAINNING start */
 .trainning {
@@ -269,7 +271,7 @@ footer li {
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 10px;
+  margin: 20px;
 }
 
 .column-1,
@@ -283,6 +285,11 @@ footer li {
 
 .column-1 img {
   padding: 0 5px;
+}
+
+.column-2 li,
+.column-3 li {
+  font-weight: 400;
 }
 
 .column-3 {
@@ -306,9 +313,13 @@ footer li {
   color: var(--color-contraste);
 }
 
-.column-4 p {
+.column-4 p, .copyright {
   font-size: 12.5px;
   color: var(--color-copyright);
+}
+
+.copyright{
+    display: none;
 }
 
 /* Media Query */
@@ -342,6 +353,7 @@ footer li {
 }
 
 @media (max-width: 480px) {
+  /* HOME responsive */
   .banner {
     width: 85vw;
   }
@@ -355,10 +367,12 @@ footer li {
     background-color: var(--color-bg-responsive);
   }
 
+  /* PRODUCTS responsive */
   .products-text {
     min-width: 370px;
   }
 
+  /* ABOUT US responsive */
   .characteristics {
     background-color: var(--color-contraste);
     padding-right: 0;
@@ -387,6 +401,12 @@ footer li {
     display: block;
   }
 
+  /* TRAINNING responsive */
+  .player-hide {
+    display: none;
+  }
+
+  /* COMMUNITY responsive */
   .title-responsive {
     min-width: 200px;
     text-align: center;
@@ -399,5 +419,46 @@ footer li {
   .btn-community {
     color: var(--color-contraste);
     background-color: var(--color-primario);
+  }
+
+  /* FOOTER responsive */
+  .column-1 {
+    width: 90%;
+    height: 80px;
+    order: 1;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .redes-sociales{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .column-2, .column-3{
+    width: 40%;
+    padding-left: 25px;
+  } 
+
+  .column-4 > p {
+    display: none;
+  }
+
+  .column-4 {
+    width: 100%;
+    order: -1;
+    align-items: stretch;
+    height: 50px;
+  }
+
+  .column-4 input[type="text"] {
+    width: 81%;
+  }
+
+  .copyright {
+    display: block;
+    order: 2;
+    margin: 15px;
   }
 }
