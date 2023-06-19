@@ -270,7 +270,7 @@ footer {
   justify-content: space-around;
   background-color: var(--color-bg-footer);
   color: var(--color-contraste);
-  padding: 4vw;
+  padding: 2vw;
   flex-wrap: wrap;
 }
 
