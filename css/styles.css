@@ -87,6 +87,33 @@ header {
   flex: 1;
 }
 
+.banner-content.banner-img img {
+  transform: scale(1);
+  transition: opacity 5s ease-in-out, transform 5s ease-in-out;
+}
+
+.banner-content.banner-img img.zoom-fade {
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+.banner-content.banner-img {
+  height: 544px;
+  overflow: hidden; /* Para asegurar que las imágenes no se desborden si son más grandes */
+}
+
+.banner-content.banner-img img {
+  width: 100%;
+  height: auto;
+}
+
+.banner-content.banner-img img {
+  /* Asegúrate de que no haya reglas que afecten el tamaño de la imagen */
+
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .banner-img > img {
   width: 83%;
   height: auto;
