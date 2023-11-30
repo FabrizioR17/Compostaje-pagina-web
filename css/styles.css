@@ -80,10 +80,12 @@ header {
 .banner-content {
   /* width: 40%; */
   margin: 4vw 0;
+  padding-left: 3vw;
+  padding-right: 7vw;
 }
 
 .banner-img {
-  min-width: 350px;
+  min-width: 250px;
   flex: 1;
 }
 
@@ -99,6 +101,7 @@ header {
 
 .banner-content.banner-img {
   height: 544px;
+  width: 324px;
   overflow: hidden; /* Para asegurar que las imágenes no se desborden si son más grandes */
 }
 
