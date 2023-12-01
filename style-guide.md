@@ -20,7 +20,7 @@ Azul grisáceo oscuro: #1E1E26
 Azul muy oscuro: #232851
 Variante gris claro: rgb (249, 249, 249)
 
-## Tipografia
+## Tipografias
 
 ### Body Copy
 
